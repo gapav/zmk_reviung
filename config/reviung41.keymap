@@ -33,7 +33,7 @@
             //                       |     |     | RET |     |     |
 
             bindings = <
-&trans         &none          &none             &none           &none  &none             &none      &none     &none   &none      &none   &trans
+&trans         &none          &none             &none           &none  &none             &none  &kp PG_UP     &none   &none      &none  &kp F12
 &trans  &kp LEFT_GUI  &kp RIGHT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none          &kp HOME   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp END
 &trans         &kp Z          &kp X             &kp C           &kp D  &kp V             &none  &kp PG_DN     &none   &none      &none    &none
                                                &trans          &trans         &trans               &trans    &trans

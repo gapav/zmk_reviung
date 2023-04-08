@@ -48,9 +48,9 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&trans  &kp EXCL     &kp AT        &kp HASH        &kp DOLLAR           &kp PERCENT                         &kp CARET           &kp AMPS    &kp BACKSLASH             &none      &none  &kp BACKSPACE
-&trans  &kp SEMI  &kp EQUAL  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp SINGLE_QUOTE  &kp TILDE          &none
-&trans     &none      &none           &none         &kp COLON             &kp MINUS                          &kp PLUS       &kp ASTERISK    &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH          &none
+&trans  &kp EXCL     &kp AT        &kp HASH        &kp DOLLAR           &kp PERCENT                         &kp CARET           &kp AMPS    &kp BACKSLASH             &none      &none      &kp BACKSPACE
+&trans  &kp SEMI  &kp EQUAL  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp SINGLE_QUOTE  &kp TILDE  &kp DOUBLE_QUOTES
+&trans     &none      &none           &none         &kp COLON             &kp MINUS                          &kp PLUS       &kp ASTERISK    &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH              &none
                                      &trans            &trans                        &kp UNDER                                    &trans           &trans
             >;
         };

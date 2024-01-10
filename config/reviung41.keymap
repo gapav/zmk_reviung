@@ -33,10 +33,10 @@
             //                       |     |     | RET |     |     |
 
             bindings = <
-&kp DELETE  &none         &none          &none             &none           &kp F12          &none     &kp PG_UP  &none     &none   &none      &kp BACKSPACE
-&trans      &kp LEFT_GUI  &kp RIGHT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none            &kp HOME  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp END
-&trans      &kp Z         &kp X          &kp C             &kp D           &kp V            &none     &kp PG_DN  &none     &none   &none      &none
-                                         &trans            &trans                   &trans            &trans     &trans
+&kp DELETE  &none         &none          &none             &kp PRINTSCREEN  &kp F12          &none     &kp PG_UP  &none     &none   &none      &kp BACKSPACE
+&trans      &kp LEFT_GUI  &kp RIGHT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT   &none            &kp HOME  &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &kp END
+&trans      &kp Z         &kp X          &kp C             &kp D            &kp V            &none     &kp PG_DN  &none     &none   &none      &none
+                                         &trans            &trans                    &trans            &trans     &trans
             >;
         };
 
@@ -48,9 +48,9 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH        &kp DOLLAR        &kp PERCENT                      &kp CARET              &kp AMPS           &kp BACKSLASH    &none             &kp TILDE  &kp BACKSPACE
-&trans  &kp SEMI  &none   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL         &none      &kp DOUBLE_QUOTES
-&trans  &none     &none   &none           &kp COLON         &kp MINUS                        &kp PLUS               &kp ASTERISK       &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH  &none
+&trans  &kp EXCL  &kp AT  &kp HASH        &kp DOLLAR        &kp PERCENT                      &kp CARET              &kp AMPS           &kp BACKSLASH    &kp PIPE          &kp TILDE  &kp BACKSPACE
+&trans  &kp SEMI  &none   &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS             &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL         &kp GRAVE  &kp DOUBLE_QUOTES
+&trans  &none     &none   &none           &kp COLON         &kp MINUS                        &kp PLUS               &kp ASTERISK       &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH  &kp CARET
                           &trans          &trans                                  &kp UNDER                         &trans             &trans
             >;
         };
@@ -72,10 +72,10 @@
 
         FUNCS {
             bindings = <
-&kp F1      &kp F2      &kp F3      &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8          &kp F9           &kp F10       &kp F11     &kp F12
-&trans      &trans      &trans      &trans  &trans  &trans                    &trans  &kp K_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp K_NEXT  &trans
-&bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans                    &trans  &trans          &trans           &trans        &trans      &sys_reset
-                                    &trans  &trans          &kp K_PLAY_PAUSE          &trans          &trans
+&kp F1      &kp F2      &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8          &kp F9           &kp F10       &kp F11     &kp F12
+&bt BT_NXT  &sys_reset  &trans  &trans  &trans  &trans                    &trans  &kp K_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOL_DN  &kp K_NEXT  &trans
+&bt BT_CLR  &trans      &trans  &trans  &trans  &trans                    &trans  &trans          &trans           &trans        &trans      &sys_reset
+                                &trans  &trans          &kp K_PLAY_PAUSE          &trans          &trans
             >;
         };
     };

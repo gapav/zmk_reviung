@@ -78,9 +78,9 @@
 
         DEFAULT {
             bindings = <
-&kp Q            &kp W            &kp F         &kp B              &kp B                             &none         &none  &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE
+&q_esc           &kp W            &kp F         &kp P              &kp B                             &none         &none  &kp J      &kp L               &kp U         &kp Y             &kp BACKSPACE
 &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G                             &none         &none  &kp M      &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O
-&kp Z            &kp X            &kp X         &kp C              &kp D                             &none         &none  &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH
+&kp Z            &kp X            &kp C         &kp D              &kp V                             &none         &none  &kp K      &kp H               &kp COMMA     &kp DOT           &kp FSLH
                                                 &lt 1 TAB          &sticky_shift_layer 3 LEFT_SHIFT         &none         &kp ENTER  &lt 2 SPACE
             >;
         };

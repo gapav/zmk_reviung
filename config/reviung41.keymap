@@ -125,7 +125,7 @@
             bindings = <
 &none      &none      &kp LC(F)  &kp LC(P)  &none      &none          &none  &none       &kp N7        &kp N8  &kp N9  &kp LC(BACKSPACE)
 &kp LC(A)  &kp LC(R)  &kp LC(S)  &kp LC(T)  &none      &none          &none  &none       &kp N4        &kp N5  &kp N6  &none
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)  &none          &none  &kp PERIOD  &kp N1        &kp N2  &kp N3  &none
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(D)  &kp LC(V)  &none          &none  &kp PERIOD  &kp N1        &kp N2  &kp N3  &kp LC(PERIOD)
                                  &trans     &trans            &trans         &mo 4       &kp NUMBER_0
             >;
         };
